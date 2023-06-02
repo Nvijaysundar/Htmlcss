@@ -1,0 +1,31 @@
+li:nth-child(2n+1)
+{
+    background-color: aquamarine;
+}
+li:only-child
+{
+    border: 2px solid black;
+}
+
+a:visited{
+    color: tomato;
+}
+a:active{
+    color: yellowgreen;
+}
+
+p::first-letter{
+    font-size: xx-large;
+}
+p::selection{
+    color: blue;
+    background-color: turquoise;
+}
+
+p::first-line{
+    color: chartreuse;
+}
+p::cue-region
+{
+    color: coral;
+}
