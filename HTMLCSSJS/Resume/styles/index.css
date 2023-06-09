@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.display-flex{
+    display: flex;
+}
+
+.head{
+    background-image: url("https://preview.colorlib.com/theme/rezume/images/image_1.jpg");
+    
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+.head1{
+    background-color: #595757;
+    opacity: .5;
+}
+.head-nav{
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.head-sticky{
+    position: sticky;
+    top: 0;
+}
+.head-nav li{
+    list-style: none;
+    margin-left: 15px;
+    border: 2px solid black;
+}
+
+.head-nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    padding: 20px;
+}
+.head-nav li:nth-child(1){
+    margin-left: 0px;
+}
+
+.headbody{
+    padding-top: 32.5vh;
+    padding-bottom: 32.5vh;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.headbody h1{
+    font-size: 5em;
+    color: inherit;
+    font-weight: 900;
+}
+
+.headbody h1::selection,h2::selection,h6::selection{
+    background-color: black;
+    opacity: none;
+}
+.headbody h2{
+    font-size: 4em;
+    font-weight: 400;
+}
+.headbody h6{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.Portfolio{
+    background-color: #222;
+    text-align: center;
+
+}
+.Portfolio h1{
+    color: #fff;
+}
+.Portfoliolist
+{
+    justify-content: center;
+}
+.Portfoliolist li{
+    list-style: none;
+    color: #fff;
+    padding: 30px;
+    font-size: 16px;
+}
+.Portfoliolist li:nth-child(1)
+{
+    color: green;
+}
+
+.Portfoliolist li:hover{
+    color: green;
+}
+
+.packs{
+    flex-wrap: wrap;
+    padding: 50px 5em 50px 5em;
+    text-align: center;
+    justify-content: center;
+}
+.packs div{
+    padding-bottom: 50px;
+}
+.packs h5{
+    color: #fff;
+    font-size: 18px;
+}
+.packs p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.packs img{
+    width: 90%;
+}
+
