@@ -1,0 +1,18 @@
+
+.nav-item{
+    margin-left: 60px;
+}
+
+.navbar-nav li:nth-child(4)
+{
+    margin-right: 50px;
+}
+
+.carousel-item img{
+    height: 630px;
+    width: 100%;
+}
+
+.row{
+    margin: 20px;
+}
