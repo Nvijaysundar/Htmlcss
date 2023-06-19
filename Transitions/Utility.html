@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .animate{
+            animation-duration: 1s;
+            animation-fill-mode: both;
+        }
+        .animate--infinite{
+            animation-iteration-count: infinite;
+        }
+        .animate--delay-2s{
+            animation-delay: 2s;
+        }
+        .animate--fast{
+            animation-duration: 0.6s;
+        }
+        .animate--slow{
+            animation-duration: 3s;
+        }
+
+        @keyframes slideright{
+            from{
+                transform: translateX(0);
+            }
+            to{
+                transform: translateX(250px);
+            }
+        }
+        .head1{
+            animation-name: slideright;
+            animation-timing-function: ease-in;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="head1 animate--fast">HelloWorld</h1>
+    <h2 class="head1 animate--slow">HelloWorld</h2>
+    <h4>HelloWorld</h4>
+</body>
+</html>

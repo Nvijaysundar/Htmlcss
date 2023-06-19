@@ -1,0 +1,324 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+.header{
+    justify-content: space-between;
+    color: black;
+    padding: 25px;
+}
+.header i{
+    font-size: 25px;
+}
+
+
+.header>div:nth-child(1){
+    padding-left: 100px; 
+}
+.header>div:nth-child(2){
+    padding-right: 100px;
+}
+.contact div {
+    margin-left: 10px;
+}
+.contact p,h6{
+    font-size: 16px;
+}
+
+.contact-info>div:nth-child(2){
+    padding-left: 25px;
+}
+
+#Hosting-drop{
+    position: relative;
+}
+.drop{
+    position: absolute;
+    display: none;
+}
+#Hosting-drop:hover .drop{
+    top: 50px;
+    display: block;
+    background-color: #fff;
+    
+}
+#Hosting-drop:hover li{
+   
+    list-style: none;
+    padding: 5px 50px;
+}
+
+.header2{
+    padding: 25px;
+    background-color: #343a40;
+    justify-content: space-around;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+}
+
+.navigate ul{
+    list-style: none;
+    
+}
+.navigate ul li{
+    padding-left: 35px;
+    
+}
+.navigate a{
+    text-decoration: none;
+    color: #a9a9a0;
+}
+
+.navigate a:hover{
+    color: #fff;
+}
+
+#reg-button{
+    background-color: transparent;
+    border: 2px solid #7cbd1e;
+    padding: 10px 30px;  
+}
+
+#reg-button a{
+    text-decoration: none;
+    color: #fff;
+}
+#reg-button:hover{
+    background-color: #7cbd1e;
+}
+#log-button{
+    background-color: #7cbd1e;
+    border: 2px solid #7cbd1e;
+    padding: 10px 30px;
+}
+#log-button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Affordable{
+    background-image: url("https://preview.colorlib.com/theme/server/images/hero_bg_1.jpg");
+    background-position: center;
+    background-repeat: none;
+    padding: 150px;
+    background-attachment: fixed;
+    text-align: center;
+}
+.Affordable>div:nth-child(1) h1{
+    font-size: 90px;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.Affordable>div:nth-child(1) p{
+    font-size: 25px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+#dow-button{
+    background-color: #7cbd1e;
+    border: 2px solid #7cbd1e;
+    padding: 18px 50px;
+}
+
+#dow-button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#get-button{
+    background-color: transparent;
+    border: 2px solid #7cbd1e;
+    padding: 18px 50px;  
+}
+
+#get-button a{
+    text-decoration: none;
+    color: #fff;
+}
+#get-button:hover{
+    background-color: #7cbd1e;
+}
+
+
+.Hostdetails{
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 90px;
+}
+.Hostdetails h1{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.hosttypes{
+    justify-content: space-evenly;
+    margin-left: 105px;
+    margin-right: 105px;
+}
+
+.hostinginfo{
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 2px 2px 10px 5px grey;
+}
+
+.hostinginfo i{
+    font-size: 45px;
+    color: #7cbd1e;
+    padding-bottom: 20px;
+}
+
+.hostinginfo h3,p{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.hostinginfo button{
+    padding: 15px 35px;
+    margin: 15px;
+    background-color: #7cbd1e;
+    
+    border: none;
+}
+.hostinginfo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.clients{
+    background-image: url("https://preview.colorlib.com/theme/server/images/hero_bg_3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+.clients div{
+    padding-left:8em;
+    padding-bottom: 50px;
+}
+.clients h1{
+    padding-top: 1.5em;
+    font-size: 8em;
+    font-weight: 100;
+}
+.clients p{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.clients button{
+    background-color: #7cbd1e;
+    margin-top: 25px;
+
+    padding: 15px 60px;
+    border: none;
+}
+
+.clients a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.choose-us{
+    margin-left: 105px;
+    margin-right: 105px;
+    margin-top: 105px;
+    font-family: 'Nunito-Sans';
+    flex-wrap: wrap;    
+}
+.choose-us div{
+    max-width: 25%;
+}
+
+.element{
+    margin: 20px;
+    border: 3px solid #a9a9a0;
+    padding: 25px;
+}
+.element div{
+    padding-bottom: 20px;
+    color: #4d687e;
+    max-width: 100%;
+}
+
+.element i{
+    font-size: 40px;
+    margin-right: 12px;
+}
+.element h2{
+    font-size: 22px;
+    font-weight: 600i;
+}
+
+.element p{
+    text-align: justify;
+    font-size: 17px;
+}
+
+
+
+.element:hover{
+    background-color: rgb(124,189,30);
+}
+.element:hover i{
+    color: #fff;
+}
+.element:hover h2{
+    color: #fff;
+}
+.element:hover p{
+    color: #fff;
+}
+
+.Testimonial img{
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+}
+
+.Footer{
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12em;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.Footer li,a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.Footer label{
+    font-size: 20px;
+}
+
+.Footer>div label{
+    padding-bottom: 25px;
+}
+
+.Europe{
+    padding-bottom: 50px;
+}
+
+.Contact{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Contact span:hover{
+    color: #7cbd1e;
+}

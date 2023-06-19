@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+    <style>
+        img{
+            width: 100%;
+            height: 500px;
+        }
+
+        div img{
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+   <div class="container-fluid">
+    <div class="carousel slide" data-ride="carousel" data-itervel="2000" id="myslider">
+        <ul class="carousel-indicators">
+            <li data-target="#myslider" data-slide-to="0"></li>
+            <li data-target="#myslider" data-slide-to="1"></li>
+            <li data-target="#myslider" data-slide-to="2"></li>
+        </ul>
+        <a href="#myslider" class="carousel-control-prev" data-slide ="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#myslider" class="carousel-control-next" data-slide ="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./pic1.jpg" alt="">
+                <div class="carousel-caption">
+                    <p class="bg-primary text-warning">Picture One</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./pic2.jpg" alt="">
+                <div class="carousel-caption">
+                    <p>Picture Two</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./pic3.jpg" alt="">
+                <div class="carousel-caption">
+                    <p>Picture Three</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+</body>
+</html>

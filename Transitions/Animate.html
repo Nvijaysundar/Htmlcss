@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .heder{
+            text-align: center;
+            margin-top: 50%;
+        }
+
+        @keyframes slide-left
+        {
+            from{
+                transform: translateX(-300px);
+            }
+
+            to{
+                transform: translateX(0);
+            }
+        }
+        .head1{
+            animation: slide-left 2s ease-in 1s 3 alternate both;
+           /* animation-name: slide-left;
+            animation-duration: 2s;
+            animation-timing-function: ease-in;
+            animation-delay: 1s;
+            animation-iteration-count: 3;
+            animation-direction: alternate;
+            animation-fill-mode: both;*/
+        }
+        @keyframes slide-right
+        {
+            from{
+                transform: translateX(0px);
+            }
+
+            to{
+                transform: translateX(300px);
+            }
+        }
+        .head3{
+            animation: slide-right 2s ease-in 1s 4 alternate both;
+           /* animation-name: slide-right;
+            animation-duration: 2s;
+            animation-timing-function: ease-in;
+            animation-delay: 1s;
+            animation-iteration-count: 3;
+            animation-direction: alternate;
+            animation-fill-mode: both;*/
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="heder">
+        <h1 class="head1">HelloWorld</h1>
+        <h3 class="head3">Helloworld</h3>
+        <h5 class="head5">Helloworld</h5>
+    </div>
+</body>
+</html>
